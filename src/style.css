@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 10px;
   background-color: #FFFFFF;
   white-space: nowrap;
+  font-size: 13px;
 }
 .UserList td:first-child {
   border-left-style: solid;
@@ -84,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 .UserList thead td {
   font-weight: bold;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 13px;
 }
 
 /* User.js styling */

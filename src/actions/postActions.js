@@ -4,7 +4,7 @@ import {formatName} from './format';
 // Fetch the users object from randomuser.me
 // and dispatch the payload
 export const fetchUsers = () => dispatch => {
-  fetch('https://randomuser.me/api/?page=1&results=20&seed=abc')
+  fetch('https://randomuser.me/api/?page=1&results=15&seed=abc')
   .then(res => res.json())
   .then(users => {
 
